@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ShapeDemo.Controls"
+             mc:Ignorable="d" x:Class="RatingControl.MainPage" BackgroundColor="LightGray" Title="Reviews">
+    <StackLayout Padding="10" Spacing="10">
+        <Frame>
+            <StackLayout Spacing="10">
+                <Label Text="Add your review" FontSize="Large" FontAttributes="Bold" />
+                <controls:RatingControl IsSelectionEnabled="True" Size="30"  Max="5" FillColor="Gold" StrokeColor="Silver" StrokeThickness="2" BackgroundColor="Aqua"/>
+                <Entry Placeholder="Add a comment" />
+            </StackLayout>
+        </Frame>
+
+        <!--<Frame>
+            <StackLayout>
+                <Label Text="Great service!" FontSize="Large" FontAttributes="Bold" />
+                    <controls:RatingControl Orientation="Horizontal" Size="30" Max="5" Rating="5" FillColor="Gold" StrokeColor="Silver" StrokeThickness="2" />
+                <Label Text="Great service and low prices!" />
+                </StackLayout>
+           </Frame>
+         <Frame>
+            <StackLayout>
+                <Label Text="Expensive" FontSize="Large" FontAttributes="Bold" />
+                    <controls:RatingControl Orientation="Horizontal" Size="30" Max="5" Rating="2.5" FillColor="Gold" StrokeColor="Silver" StrokeThickness="2" />
+                <Label Text="They are very expensive!" />
+                </StackLayout>
+           </Frame>
+         <Frame>
+            <StackLayout>
+                <Label Text="Crap" FontSize="Large" FontAttributes="Bold" />
+                    <controls:RatingControl Orientation="Horizontal" Size="30" Max="5" Rating="1" FillColor="Gold" StrokeColor="Silver" StrokeThickness="2" />
+                <Label Text="They are just selling crap!" />
+                </StackLayout>
+           </Frame>
+        <Frame>
+            <StackLayout>
+                <Label Text="Best store" FontSize="Large" FontAttributes="Bold" />
+                    <controls:RatingControl Orientation="Horizontal" Size="30" Max="5" Rating="4.5" FillColor="Gold" StrokeColor="Silver" StrokeThickness="2" />
+                <Label Text="This is the best store in the country!" />
+                </StackLayout>
+           </Frame>-->
+    </StackLayout>
+
+</ContentPage>
